@@ -3,7 +3,7 @@
 </h1>
 
 
-Projeto criado sob a tutoria do Rodrigo Peleias da Digital Innovation One. É uma API Rest para o gerenciamento de estoques de cerveja.   
+Projeto criado sob a tutoria do Rodrigo Peleias da Digital Innovation One. É uma **API Rest** para o gerenciamento de estoques de cerveja.   
 Desenvolvida em Java através do Spring Boot, foram criados **testes unitários** e funcionalidades através do **TDD** (Desenvolvimento Orientado a Testes) para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
 
 ## Na prática
