@@ -1,10 +1,10 @@
 <h1 align="center">
-   beerStock-API-Java
+   Inventory_Management_API
 </h1>
 
+**API Rest** para gerenciamento de estoques de cerveja desenvolvida em **Java** e **Spring Boot**.   
+Também possui **testes unitários** para validação de cadastro, listagem, consulta por nome e exclusão de produtos.
 
-Projeto criado sob a tutoria do Rodrigo Peleias da Digital Innovation One. É uma **API Rest** para o gerenciamento de estoques de cerveja.   
-Desenvolvida em Java através do Spring Boot, foram criados **testes unitários** e funcionalidades através do **TDD** (Desenvolvimento Orientado a Testes) para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
 
 ## Na prática
 
