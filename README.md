@@ -20,7 +20,7 @@ Exclusão de Cervejas: Remove uma cerveja do estoque.
 ## 3. Tecnologias Utilizadas   
 
 - **Java 11**: Linguagem de programação utilizada para o desenvolvimento.
-- **Spring Boot 2.7.1**: Framework para criação de aplicações Java com foco em produtividade e facilidade de configuração.
+- **Spring Boot 2.5.14**: Framework para criação de aplicações Java com foco em produtividade e facilidade de configuração.
 - **Spring Data JPA**: Para gerenciamento de persistência e interação com o banco de dados.
 - **H2 Database**: Banco de dados em memória utilizado para desenvolvimento e testes.
 - **Swagger**: Ferramenta para documentação interativa da API.
@@ -149,5 +149,5 @@ mvn test
 Após a aplicação estar em funcionamento, você pode acessar a documentação interativa da API em:   
 
 ```   
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui/index.html
 ```   
