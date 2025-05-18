@@ -4,7 +4,6 @@ import one.digitalInnovation.EstoqueCerveja.builder.BeerDTOBuilder;
 import one.digitalInnovation.EstoqueCerveja.dto.BeerDTO;
 import one.digitalInnovation.EstoqueCerveja.dto.QuantityDTO;
 import one.digitalInnovation.EstoqueCerveja.exceptions.BeerNotFoundException;
-import one.digitalInnovation.EstoqueCerveja.exceptions.BeerStockExceededException;
 import one.digitalInnovation.EstoqueCerveja.service.BeerService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +23,6 @@ import java.util.Collections;
 import static one.digitalInnovation.EstoqueCerveja.utils.JsonConvertionUtils.asJsonString;
 import static org.hamcrest.core.Is.is;
 import static org.mockito.Mockito.*;
-import static org.springframework.http.RequestEntity.patch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -37,7 +35,7 @@ public class BeerControllerTest {
     private static final long VALID_BEER_ID = 1L;
     private static final long INVALID_BEER_ID = 2L;
     private static final String BEER_API_SUBPATH_INCREMENT_URL = "/increment";
-    private static final String BEER_API_SUBPATH_DECREMENT_URL = "/decrement";
+
 
     private MockMvc mockMvc;
 

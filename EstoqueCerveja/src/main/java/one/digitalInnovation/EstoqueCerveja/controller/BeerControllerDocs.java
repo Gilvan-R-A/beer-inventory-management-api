@@ -1,12 +1,5 @@
 package one.digitalInnovation.EstoqueCerveja.controller;
 
-//import io.swagger.annotations.ApiOperation;
-//import io.swagger.annotations.ApiResponse;
-//import io.swagger.annotations.ApiResponses;
-//import org.springframework.web.bind.annotation.PathVariable;
-//
-//import java.util.List;
-
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -15,9 +8,8 @@ import one.digitalInnovation.EstoqueCerveja.dto.BeerDTO;
 import one.digitalInnovation.EstoqueCerveja.exceptions.BeerAlreadyRegisteredException;
 import one.digitalInnovation.EstoqueCerveja.exceptions.BeerNotFoundException;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import javax.validation.Valid;
+
 import java.util.List;
 @Api("Manages beer stock")
 public interface BeerControllerDocs {
